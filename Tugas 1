@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nilai,hasil;
+    cout<<"Masukan angka = ";
+    cin>>nilai;
+    hasil=nilai%2;
+    if (hasil==0) 
+        cout<<"Genap";
+    else
+        cout<<"Ganjil";
+    return 0;
+}
